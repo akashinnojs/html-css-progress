@@ -15,8 +15,11 @@ header{
 .navbar{
     display: flex;
     align-items: center;
-    margin-top: 30px;
-    
+    /* margin-top: 30px; */
+    position: sticky;
+    background-color: white;
+    width: 100%;
+    height: 80px;
     gap: 10px;
 }
 .navbar h1{
@@ -69,4 +72,20 @@ header{
 .banner button:hover{
     background-color: white;
     color: black;
+}
+.heading{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns:repeat(3,33.3%);
+    margin-top: 25px;
+}
+.card-1 p{
+   margin-left: 70px;
 }
