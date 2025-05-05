@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Radley', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    padding: 30px 120px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.brand-name h1 {
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.brand-name h1:hover {
+    color: #dc3545;
+}
+
+.menu-bar li {
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.menu-bar li:hover {
+    color: #dc3545;
+}
+
+.menu-bar ul {
+    display: flex;
+    gap: 45px;
+}
+
+.reserv-btn {
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+}
+
+.bg-video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.left-section {
+    color: white;
+}
+
+.rating-icons {
+    color: #f3af24;
+}
+
+.left-section h1 {
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+
+.left-section .ban-rating {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.left-section .ban-rating h3 {
+    font-size: 2rem;
+}
+
+.left-section h4 {
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 1.3rem;
+    color: rgb(209, 202, 202);
+}
+
+.left-section h4 span {
+    font-weight: bold;
+    color: white;
+}
+
+.right-section {
+    margin-left: 150px;
+    position: relative;
+
+}
+
+.bg-image img {
+    filter: brightness(70%);
+
+
+}
+
+.text {
+    position: absolute;
+    bottom: 70px;
+    left: 40px;
+    color: white;
+    font-size: 1.5rem;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text span {
+    border: 1px black;
+    border-radius: 40px;
+    padding: 15px 10px;
+    background-color: white;
+    color: #f3af24;
+    font-size: medium;
+    font-weight: 500;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.bottom-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text .rating-icons {
+    display: flex;
+    font-size: 1rem;
+}
+
+.arrow-box {
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    display: flex;
+}
+
+.common-box-styles {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.common-box-styles:hover {
+    background-color: black;
+}
+
+.common-box-styles i:hover {
+    transform: scale(1.5);
+
+}
+
+.box-1 {
+    background-color: #f3af24;
+}
+
+.box-1 i {
+    transform: rotate(-45deg);
+
+}
+
+.box-2 {
+    background-color: #dc3545;
+}
+
+.box-2 i {
+    transform: rotate(45deg);
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.main-menu h1 {
+    font-size: 4rem;
+}
+
+.menu-grid {
+    display: grid;
+    /* grid-template-columns: 33.3% 33.3% 33.3%; */
+    grid-template-columns: repeat(3, 33.3%);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .image-card {
+    position: relative;
+}
+
+.menu .image-card p {
+    background-color: #f3af24;
+    color: white;
+    padding: 5px 15px;
+    width: fit-content;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    border-radius: 8px;
+}
+
+.menu button {
+    border: 1px solid black;
+    border: 40px;
+    padding: 15px 10px;
+    border-radius: 20px;
+    border-color: #dbd1d1;
+    color: #f3af24;
+    font-size: 1.1rem;
+    margin-left: 40px;
+}
+
+.menu h4 {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rating-container h4 {
+    font-size: 2rem;
+}
+
+.bg-fixed {
+    background-image: url(images/bg\ img.jpg);
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+.text-center {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.grids-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.cards {
+    overflow: hidden;
+}
+
+.cards img {
+    transition: all 0.175s ease-in-out;
+}
+
+.cards img:hover {
+    transform: scale(1.2);
+}
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 20px;
+
+}
+
+.image-grid .card-1 {
+    position: relative;
+}
+
+.text-position {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text-position p {
+    border: 1px black;
+    background-color: #dc3545;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.text-position h2 {
+    color: white;
+    font-size: 1.8rem;
+
+}
+
+.image-grid .card-2 {
+    position: relative;
+}
+
+.image-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.card-text {
+    display: flex;
+    gap: 15px;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.card-text p {
+    border: 1px;
+    color: white;
+    background-color: #0d6efd;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    /* margin-bottom: 20px */
+    ;
+}
+
+.image-grid-2 .card-2 p {
+    border: 1px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin-top: 8px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.image-grid-2 h2:hover {
+    color: #dc3545;
+}
+
+.footer {
+    background-image: url(images/cafe.jpg);
+    background-repeat: no-repeat;
+    padding: 120px 80px;
+    margin-top: 100px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+footer .box-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+} 
+footer .box-container .box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 300px;
+
+}
+
+footer .box-container .box h3{
+    text-transform: capitalize;
+    
+}
+footer .box-container .box p{
+    font-size: 1.3rem;
+}
+footer .box-container .box a{
+    padding: 10px 15px;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: 2px solid gray;
+    text-decoration: none;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.icon i{
+    color: rgb(189, 184, 184);
+    transition: all 1s ease-in-out;
+}
+.icon i:hover{
+
+    color:white;
+}
+
+
+

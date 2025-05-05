@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #171717;
+    color: #d3af92;
+    padding: 5px 80px;
+}
+
+.header-left {
+    display: flex;
+    gap: 30px;
+}
+
+.top-header i {
+    margin-left: auto;
+    height: fit-content;
+    color: #d3af92;
+    gap: -50px;
+    font-size: 15px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info h5:hover {
+    color: white;
+}
+
+.navbar {
+    background-color: #191717;
+    color: #d3af92;
+    font-family: 'Radley', sans-serif;
+    font-size: small;
+    margin-left: auto;
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul :hover {
+    color: white;
+}
+
+.navbar img {
+    margin-left: 30px;
+}
+
+.title-page {
+    background-image: url(images/slide2.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    /* padding-top: 200px; */
+    position: relative;
+    color: #d3af92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+
+.banner-text {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-text p {
+    font-family: "Fredericka the Great", serif;
+    font-size: 2rem;
+}
+
+.next-page {
+    display: flex;
+    background-color: #2f4d4b;
+}
+
+.reserve-content {
+    border: 1px dotted #d3af92;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+
+}
+
+.reserve-content h1 {
+    text-align: center;
+    font-weight: 800;
+    color: lab(73.92% 8.86 19.77);
+    font-family: "Fredericka the Great", serif;
+}
+
+.reserve-content h1:hover {
+    background-color: coral;
+}
+
+.reserve-content p {
+    color: #d3af92;
+    font-family: "Radley", serif
+}
+
+.page-two {
+    display: flex;
+    background-color: #513438;
+}
+
+.mail-box {
+    border: 1px dotted #d3af92;
+    /* padding: 10px 15px 10px 15px; */
+    /* display: flex; */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.page-two h1 {
+    text-align: center;
+    font-weight: 800;
+    color: #d3af92;
+    font-family: "Fredericka the Great", serif;
+}
+
+.page-two p {
+    color: #d3af92;
+    font-family: "Radley", serif
+}
+
+.mail-box h1:hover {
+    background-color: coral;
+}
+.page-three{
+    display: flex;
+    background-color: #d3af92;
+}
+.sample-one{
+    text-align: center;
+    border: 1px dotted coral;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.sample-one h1:hover{
+    background-color: coral;
+}
+.sample-one h1{
+    font-family: "Fredericka the Great", serif;
+}
+.sample-one p{
+     color:#191717;
+    font-family: "Radley", serif
+}
+.page-four{
+    display: flex;
+    background-color: #2f4d4b;;
+}
