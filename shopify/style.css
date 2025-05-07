@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 .navbar{
     padding: 10px 25px;
@@ -30,8 +31,8 @@ ul li{
 .discription h3{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
-    
+    /* border: 1px solid black; */
+    background:linear-gradient(to bottom right,rgb(169, 160, 245),rgb(169, 62, 218))
 }
 .product-grid{
     display: grid;
@@ -46,12 +47,45 @@ ul li{
     margin-left: auto;
     margin-right: auto;
     padding: 5px 10px;
-    /* display: flex; */
     
+    
+}
+.image-container{
+    position: relative;
+
+}
+
+.image-container p{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    padding: 5px 8px;
+    font-size: 0.8rem;
+    font-weight: 200;
+    color:white;
+    background-color: #FF8282;
+
+}
+.image-container div{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    padding: 5px 8px;
+    font-size: 0.8rem;
+    font-weight: 200;
+    color:white;
+    background-color: #81E7AF;
+
+
 }
 .product-card button{
     padding: 5px 10px;
     background-color: transparent;
+    border-radius: 5px;
 
 }
 .product-card img:hover{

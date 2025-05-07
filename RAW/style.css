@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
-    top: 0;
+    padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
     color: gray;
@@ -12,7 +13,8 @@ header{
     font-weight: bold;
     padding: 5px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     /* margin-top: 30px; */
@@ -22,17 +24,20 @@ header{
     height: 80px;
     gap: 10px;
 }
-.navbar h1{
+
+.navbar h1 {
     margin-left: 75px;
     font-weight: bold;
 }
-.navigation{
+
+.navigation {
     display: flex;
     gap: 30px;
     margin-left: 700px;
     font-size: 1.2rem;
 }
-.banner{
+
+.banner {
     background-image: url(images/baac51_88d59da2f5a844e9850ee580ab0c8b8d~mv2_d_4000_1782_s_2.avif);
     background-repeat: no-repeat;
     display: flex;
@@ -47,7 +52,8 @@ header{
     /* border: 2px solid black; */
 
 }
-.banner p{
+
+.banner p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,12 +62,14 @@ header{
     line-height: 0.8;
     text-align: center;
     font-weight: 800;
-    
+
 }
-.banner h3{
+
+.banner h3 {
     color: white;
 }
-.banner button{
+
+.banner button {
     padding: 8px 15px;
     background-color: transparent;
     color: white;
@@ -69,11 +77,13 @@ header{
     font-size: 1rem;
     transition: all 0.175s ease-in-out;
 }
-.banner button:hover{
+
+.banner button:hover {
     background-color: white;
     color: black;
 }
-.heading{
+
+.heading {
     color: black;
     font-size: 1.2rem;
     font-weight: 600;
@@ -81,11 +91,139 @@ header{
     justify-content: center;
     padding: 20px;
 }
-.product-grid{
+
+.product-grid {
     display: grid;
-    grid-template-columns:repeat(3,33.3%);
+    grid-template-columns: repeat(3, 33.3%);
     margin-top: 25px;
+    gap: 20px;
 }
-.card-1 p{
-   margin-left: 70px;
+
+.product-grid .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
 }
+
+.product-grid .card p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.product-grid .card button {
+    padding: 10px 15px;
+    border-radius: 100%;
+    background-color: #DDEB9D;
+}
+
+.shoping-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.shoping-btn h3 {
+    padding: 5px 15px;
+    border: 1px soloid black;
+    background-color: black;
+    color: white;
+}
+
+.ig-section {
+    margin-top: 70px;
+}
+
+.ig-section h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 250px;
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+
+.footer-left {
+    display: flex;
+    gap: 80px;
+}
+
+.footer-left .menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-left .menu ul li {
+    color: white;
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.footer-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.1rem;
+}
+
+.footer-right .email-input {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.footer-right .email-input input {
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    outline: none;
+    caret-color: white;
+}
+
+.footer-right .check-btn {
+    display: flex;
+    gap: 75px;
+}
+
+.footer-right .check-btn button {
+    text-transform: uppercase;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 3px 5px;
+    transition: all 0.175s ease-in-out;
+}
+
+.footer-right .check-btn button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.footer-right .check-btn div {
+    display: flex;
+    gap: 15px;
+}
+.footer-right .check-btn div input {
+    accent-color: black;
+}
+
+
+
+.footer-right form {}
