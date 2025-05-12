@@ -240,7 +240,6 @@ footer .loction-info{
     display: flex;
     flex-direction: column;
     width: 150px;
-    
 }
 footer .loction-info h5{
     font-size: 0.8rem;
