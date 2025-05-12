@@ -1,40 +1,288 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
-.navbar{
+
+.navbar {
     display: flex;
     padding: 20px 75px;
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
 }
-.brand-name{
+
+.brand-name {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 600;
-    color:#006A67 ;
-}
-.navbar ul{
-    display: flex;
     color: #006A67;
+}
+
+.navbar ul {
+    display: flex;
     gap: 25px;
     font-size: 0.7rem;
     text-transform: uppercase;
 }
+
 .navbar ul li {
     list-style: none;
 }
-.navbar ul li:hover{
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #006A67;
+
+}
+
+.navbar ul li a:hover {
     color: black;
 }
-.navbar .log-in{
+
+.navbar .log-in {
     display: flex;
     gap: 10px;
     color: #006A67;
 }
-.navbar .log-in h5:hover{
+
+.navbar .log-in h5 {
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.navbar .log-in h5:hover {
     color: #353a39;
+}
+
+.banner {
+    /* background-image: url(images/background\ img.avif); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner img {
+    filter: brightness(0.7);
+}
+
+.banner .text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.banner .text p {
+    font-size: 1.2rem;
+}
+
+.banner .text h1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.banner .text pre {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    padding: 30px 50px;
+}
+
+.container .left-section,
+.container .right-section {
+    background-image: url(images/egg.avif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background-size: cover;
+    background-repeat: none;
+    padding: 0px 100px;
+}
+
+.container .right-section {
+    background-image: url(images/baby.avif);
+}
+
+.container .left-section .text,
+.container .right-section .text {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+.container .left-section .text p,
+.container .right-section .text p {
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1.15rem;
+    color: #006A67;
+    font-weight: 500;
+}
+
+.container .left-section .text a,
+.container .right-section .text a {
+    color: #006A67;
+    text-align: center;
+    transition: all 0.175s ease-in-out;
+
+}
+
+.container .left-section .text a:hover,
+.container .right-section .text a:hover {
+    opacity: 0.6;
+}
+
+
+
+.container .middle-section {
+    background-color: orange;
+    display: flex;
+    gap: 35px;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container .middle-section h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    color: #006A67;
+}
+
+.container .middle-section p {
+    max-width: 200px;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #006A67;
+}
+
+.container .middle-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #006A67;
+    color: white;
+    transition: all 0.175s ease-in-out;
+}
+
+.container .middle-section button:hover {
+    opacity: 0.7;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 130px;
+    color: #006A67;
+
+}
+
+.slider .slide p {
+    max-width: 600px;
+}
+
+section .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    gap: 25px;
+}
+
+.dot-container .dots {
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    background-color: gray;
+
+}
+
+.dot-container {
+    display: flex;
+    gap: 5px;
+
+}
+
+.dot-container .dot1 {
+    background-color: #006A67;
+}
+
+.follow-page {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    color: #006A67;
+    padding: 10px;
+
+}
+
+.follow-page h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.grid-container{
+    display: grid;
+    justify-content:space-between;
+    gap: 50px;
+    padding: 50px 80px;
+    grid-template-columns:repeat(4,250px);
+    grid-template-rows: repeat(2,250px);
+}
+
+#c1 {
+    background-color: red;
+}
+
+#c2 {
+    background-color: purple;
+}
+
+#c3 {
+    background-color: blue;
+}
+
+#c4 {
+    background-color:green;
+}
+
+#c5 {
+    background-color: brown;
+}
+
+#c6 {
+    background-color:coral;
+}
+
+#c7 {
+    background-color:tomato ;
+}
+
+#c8 {
+    background-color: dodgerblue;
 }
