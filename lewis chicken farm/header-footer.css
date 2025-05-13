@@ -1,0 +1,109 @@
+.navbar {
+    display: flex;
+    padding: 20px 75px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.brand-name a {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #006A67;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #006A67;
+
+}
+
+.navbar ul li a:hover {
+    color: black;
+}
+
+.navbar .log-in {
+    display: flex;
+    gap: 10px;
+    color: #006A67;
+}
+
+.navbar .log-in h5 {
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.navbar .log-in h5:hover {
+    color: #353a39;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 40px 80px;
+    color: #006A67;
+}
+
+.box1 img {
+    height: 100px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 200px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 200px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 200px;
+
+}
+
+.box4 .icon {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+    color: rgb(53, 51, 51);
+}
+
+.box4 a {
+    /* text-decoration: none; */
+    color: #006A67;
+}
+
+footer h4 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+footer p {
+    font-size: 0.8rem;
+}

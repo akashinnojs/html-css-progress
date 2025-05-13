@@ -6,60 +6,6 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.navbar {
-    display: flex;
-    padding: 20px 75px;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: white;
-}
-
-.brand-name {
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #006A67;
-}
-
-.navbar ul {
-    display: flex;
-    gap: 25px;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-}
-
-.navbar ul li {
-    list-style: none;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #006A67;
-
-}
-
-.navbar ul li a:hover {
-    color: black;
-}
-
-.navbar .log-in {
-    display: flex;
-    gap: 10px;
-    color: #006A67;
-}
-
-.navbar .log-in h5 {
-    font-weight: 300;
-    text-transform: capitalize;
-}
-
-.navbar .log-in h5:hover {
-    color: #353a39;
-}
-
 .banner {
     /* background-image: url(images/background\ img.avif); */
     display: flex;
