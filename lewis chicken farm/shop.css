@@ -6,3 +6,62 @@
     font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
 }
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 65px;
+}
+.top-head h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #006A67;
+}
+.top-head pre{
+    font-size: 1.2rem;
+    color: #006A67;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+    gap: 50px;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 30px ;
+}
+.product-grid .card {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    text-align: center;
+    /* background-color:aliceblue; */
+    position: relative;
+}
+.grid-container .card p{
+    max-width: 300px;
+    font-size:0.8rem;
+    color: #006A67;
+    /* padding: 5px ; */
+}
+.grid-container .card img{
+
+}
+.grid-container .text p{
+    position: absolute;
+    top:0px;
+    left: 15px;
+    background-color: #006A67;
+    color: white;
+    font-size: 0.6rem;
+    padding: 2px;
+}
