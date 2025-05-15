@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.banner {
+    margin-top: 80px;
+    /* padding: 120px; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 620px);
+    grid-template-rows: 670px;
+    /* padding: 30px 65px; */
+    color: #006a67;
+}
+
+.banner .left-section {
+    background-image: url(images/father&daughter.avif);
+    background-attachment: fixed;
+    /* background-size: contain; */
+    /* background-position: right; */
+}
+
+
+.banner .right-section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7AD45;
+    border: 1px solid white;
+    gap: 20px;
+    /* padding: px 35px; */
+}
+
+.banner .right-section .head {
+    font-weight: 500;
+    /* margin-top: 50px; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.banner .right-section .head .top-info {
+    display: flex;
+    /* gap: 30px; */
+}
+
+.banner .right-section .head h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.banner .right-section .head .top-info p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 15px 35px;
+}
+
+.banner .right-section .head .number {
+
+    border-right: 1px solid #006a67;
+}
+
+.banner .right-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.banner .right-section form input {
+    /* width: 180px; */
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #006a67;
+    font-size: 0.7rem;
+    background: none;
+    color: #006a67;
+}
+
+.banner .right-section form label {
+    font-size: 0.8rem;
+}
+
+.banner .right-section .common-forms {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.banner .right-section .name-box {
+    display: flex;
+    gap: 30px;
+}
+
+.banner .right-section button {
+    padding: 8px 30px;
+    background-color: #006a67;
+    color: #ffff;
+    border: none;
+    transition: all 0.175s ease-in-out;
+}
+
+.banner .right-section button:hover {
+    opacity: 0.6;
+}
+
+.banner .right-section form .text textarea {
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #006a67;
+    padding-bottom: 25px;
+
+}
+
+.banner .right-section form .text textarea:focus {
+    outline: none;
+}
+section .site-footer{
+    width: 90px;
+    height: 80px;
+}
