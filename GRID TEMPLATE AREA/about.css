@@ -1,0 +1,55 @@
+.image-grid-container{
+    display: grid;
+    gap: 15px;
+    overflow: hidden;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3,200px);
+    grid-template-areas:
+    "img1 img1 img4 img5"
+    "img1 img1 img6 img7"
+    "img2 img3 img8 img9"
+    ;
+
+}
+#img1{
+    grid-area: img1;
+}
+#img2{
+   grid-area:img2 
+}
+#img3{
+    grid-area:img3 
+}
+#img4{
+    grid-area:img4 
+    
+}
+#img5{
+    grid-area:img5 
+    
+}
+#img6{
+    grid-area:img6 
+    
+}
+#img7{
+    grid-area:img7 
+    
+}#img8{
+    grid-area:img8 
+    
+}#img9{
+    grid-area:img9 
+    
+}
+.image-grid-container .card .grid-images{
+    width: 300px;
+    height: 200px;
+}
+.grid-box div {
+    padding: 30px;
+    text-align: center;
+}
+.grid-box div p{
+    font-size:1.2rem;
+}
