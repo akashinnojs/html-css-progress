@@ -66,24 +66,7 @@ body{
 
     color: #015551;
 }
-.container{
-    /* display: flex; */
-    flex-direction: column;
-}
-.card{
-    /* border: 2px solid black; */
-    width: var(--akash);
-}
-.card h2{
-    text-align: center;
-    font-size:1.2rem;
-    font-style:inherit;
-    font-weight: 300;
-}
-.card .text{
-    padding: 25px;
-    border-bottom: 1px solid black;
-}
+/* main */
 .footer{
     display: flex;
     justify-content: space-between;
@@ -94,12 +77,4 @@ body{
     display: flex;
     gap: 8px;
 }
-
-.footer a{
-    /* text-decoration: none; */
-    color: black;
-}
-    
-
-
 

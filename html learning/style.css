@@ -1,0 +1,30 @@
+*{
+    /* font-style: italic; */
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+}
+.image:hover{
+    background: purple;
+    color: white;
+    transition: all 2s ease-in-out;
+    
+}
+.hero-banner-box:hover{
+    background:#E9A5F1;
+    color: white;
+    transition: all 2s ease-in-out;
+
+}
+.hero-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-box:hover{
+    background: purple;
+    color: white;
+    transition: all 1s ease-in-out;
+
+}
