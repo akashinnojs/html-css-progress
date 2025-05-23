@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+
+}
+body{
+    height: 100vh;
+    /* background-color: #000; */
+    /* background-image: url(images/https://images.pexels.com/photos/925743/pexels-photo-925743.jpeg?auto=compress&cs=tinysrgb&w=600); */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.navbar a{
+    text-decoration: none;
+    
+}
+.logo a{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
